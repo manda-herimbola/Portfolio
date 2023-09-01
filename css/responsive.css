@@ -1,0 +1,117 @@
+@media (max-width: 1024px) {
+    .skills div{
+        width: 350px;
+    }
+    .Card_skills_List article{
+        width: 150px;
+    }
+    .node_logo{
+        min-width: 350px;
+        min-height: 250px;
+    }
+    .Card_skills_List article img{
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    .skills div{
+        width: 250px;
+    }
+    .Card_skills_List article{
+        width: 100px;
+    }
+    .node_logo{
+        min-width: 250px;
+        min-height: 250px;
+    }
+    .Card_skills_List article img{
+        width: 100px;
+    }
+    .Card_skills_List article h4{
+        font-size: 10px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    body{
+        font-size: 12px;
+    }
+    .description h1{ font-size: 25px }
+    .description h3{ font-size: 20px }
+    .description p{ font-size: 10px }
+
+    .skills_description{
+        min-width: 375px;
+    }
+
+    .skills{ flex-wrap: wrap }
+    .skills div{
+        width: 400px;
+        margin: 10px;
+    }
+    .Card_skills_List article{
+        width: 160px;
+        margin: 5px;
+    }
+    .node_logo{
+        min-width: 335px;
+        min-height: 250px;
+    }
+    .Card_skills_List article img{ width: 160px; }
+    .Card_skills_List article h4{
+        font-size: 10px;
+        margin: 0;
+    }
+    .height_Container{ height: 100vh }
+    footer{ flex-wrap: wrap; }
+    footer div{
+        width: 400px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Card_skills_List article{
+        width: 140px;
+        margin: 5px;
+    }
+
+    .node_logo{
+        min-width: 290px;
+        min-height: 230px;
+    }
+
+    .skills_description{
+        min-width: 320px;
+    }
+
+    .Card_skills_List article img{ width: 140px; }
+}
+
+@media (max-width: 320px) {
+    body{ font-size: 10px; }
+    .description h1{ font-size: 20px }
+    .description h3{ font-size: 15px; margin: 10px 0;}
+    .description p{ font-size: 10px }
+
+    .skills_description{
+        min-width: 100px;
+    }
+
+    .node_logo{
+        min-width: 250px;
+        min-height: 200px;
+    }
+
+    .Card_skills_List article{
+        width: 120px;
+        margin: 3px;
+    }
+    .Card_skills_List article img{ width: 120px; }
+}
+

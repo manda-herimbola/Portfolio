@@ -1,0 +1,17 @@
+header{
+    background: url("../img/caroussel/pexels-christina-morillo-1181275.jpg") no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+header nav{
+    background-color: rgba(0, 42, 64, 1);
+    padding-top: 0;
+}
+article { background-color: #fff; }
+.title_skills{
+    margin: 10px;
+    padding-bottom: 20px;
+    color: #FFF;
+    border-bottom: 1px solid #ffffff;
+}
