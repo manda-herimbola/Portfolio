@@ -23,6 +23,8 @@ lib-cov
 coverage
 *.lcov
 
+.idea
+
 # nyc test coverage
 .nyc_output
 
@@ -102,13 +104,15 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Docusaurus cache and generated files
 .docusaurus
 
 # Serverless directories
 .serverless/
+
+.img/
+.logo/
 
 # FuseBox cache
 .fusebox/
