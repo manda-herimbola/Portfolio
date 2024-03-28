@@ -2,6 +2,7 @@ const navbar = document.querySelector('nav')
 const formEmail = document.querySelector('.send_email_opacity')
 const descEmail = document.querySelector('.send_email_desc_opacity')
 const skillsComponent = document.querySelector('.skills')
+const experiencesComponent = document.querySelector('.experiences')
 const projectComponent = document.querySelector('.project')
 const about = document.querySelector('#about-me')
 
@@ -21,12 +22,18 @@ const changeNavbar = () => {
     }
 
     if (window.scrollY >= 800){
+        experiencesComponent.style.opacity = "1"
+    }else {
+        experiencesComponent.style.opacity = "0"
+    }
+
+    if (window.scrollY >= 1300){
         projectComponent.style.opacity = "1"
     }else {
         projectComponent.style.opacity = "0"
     }
 
-    if (window.scrollY >= 1500){
+    if (window.scrollY >= 2000){
         formEmail.style.opacity = "1"
         descEmail.style.opacity = "1"
     }else {
@@ -34,7 +41,7 @@ const changeNavbar = () => {
         descEmail.style.opacity = "0"
     }
 
-    if (window.scrollY >= 2100){
+    if (window.scrollY >= 2600){
         about.style.opacity = "1"
     }else {
         about.style.opacity = "0"

@@ -209,3 +209,8 @@ footer{
     width: 350px;
     border-radius: 20px;
 }
+.experiences{
+    background-color: rgba(0, 42, 64, 0.05);
+    color: #002A40;
+}
+.experiences_desc_opacity ul{line-height: 30px;}
