@@ -70,7 +70,10 @@
     .description h1{ font-size: 30px }
     .description h3{ font-size: 20px }
     .description p{ font-size: 12px }
-
+    header nav h3 {
+        color: #F9B21C;
+        margin-right: 30px;
+    }
     .skills{
         height: auto;
         padding: 30px 22px;
