@@ -166,33 +166,6 @@
         width: 100%;
         margin: 0;
     }
-
-    /*.skills_description{ min-width: 375px;}
-
-    .skills{ flex-wrap: wrap }
-    .skills div{
-        width: 400px;
-        margin: 10px;
-    }
-    /*.Card_skills_List article{
-        width: 160px;
-        margin: 5px;
-    }
-    .node_logo{
-        min-width: 335px;
-        min-height: 250px;
-    }
-    .Card_skills_List article img{ width: 160px; }
-    .Card_skills_List article h4{
-        font-size: 10px;
-        margin: 0;
-    }
-    .height_Container{ height: 100vh }
-    footer{ flex-wrap: wrap; }
-    footer div{
-        width: 400px;
-        margin: 10px;
-    }*/
 }
 
 @media (max-width: 375px) {
