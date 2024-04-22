@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1124px) {
     .skills div{ width: 384px;}
     .Card_skills_List article {
         width: 150px;
@@ -22,7 +22,7 @@
     .footer-profile { height: 492px; }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body{ font-size: 12px;}
     .description h1 { font-size: 50px; }
     .description h3 { font-size: 20px; }
@@ -66,7 +66,7 @@
     .footer-profile { height: 463px; }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 740px) {
     .description h1{ font-size: 30px }
     .description h3{ font-size: 20px }
     .description p{ font-size: 12px }
@@ -85,7 +85,7 @@
         width: 120px;
         margin: 5px;
         border-radius: 10px;
-        zoom: 1.46;
+        zoom: 1.2;
     }
     .Card_skills_List article img{ width: 120px; }
 
@@ -168,11 +168,15 @@
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     .Card_skills_List article{
         width: 140px;
         margin: 5px;
-        zoom: 1.1;
+        zoom: 0.87;
+    }
+    .background_header nav ul li {
+        padding: 0;
+        margin: 0 8px 0 0;
     }
 
     .experiences{ padding: 60px 22px; }
@@ -189,15 +193,19 @@
     .Card_skills_List article img{ width: 140px; }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     body{font-size: 10px}
     .skills div {
         width: 100% !important;
         line-height: 25px;
     }
+    .background_header nav ul li {
+        padding: 0;
+        margin: 0 8px 0 0;
+    }
     .Card_skills_List article {
         width: 140px;
         margin: 5px;
-        zoom: 0.92;
+        zoom: 0.79;
     }
 }
