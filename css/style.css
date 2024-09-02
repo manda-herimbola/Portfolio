@@ -205,6 +205,12 @@ footer{
 .photo-de-manda{
     overflow: hidden;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .footer-profile img{
     width: 350px;
     border-radius: 20px;
