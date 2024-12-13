@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* necessary */
+.Title{ color: #002A40; margin-bottom: 20px }
+.container{ height: 100vh }
+.column_space_between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.column_Center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.marginFixed{ padding: 0 7%;}
+.height_Container{ height: 100vh }
+span{ color: #F9B21C }
+button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 300ms;
+}button:hover{ background: #cd7b00; }
+.stack{ padding: 20px 0; }
+.input_necessary{
+    padding: 20px;
+    margin: 5px 0 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 125, 189, 0.2);
+}
+/* necessary */
+
+header{ height: 100vh; }
+header nav {
+    padding: 50px 7% 0;
+    color: #FFF;
+    height: 80px;
+    transition-duration: 300ms;
+    position: fixed;
+    width: calc(100% - 14%);
+}
+header nav h3{ color: #F9B21C }
+header nav ul{list-style: none;}
+header nav ul li {
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+    transition-duration: 300ms;
+}
+header nav ul li:hover{ background: rgba(225,225,225,0.2); }
+
+.slider_image{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 1;
+    object-fit: cover;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.description button{
+    color: #002A40;
+    background-color: #F9B21C;
+    font-size: 15px;
+}
+.description button:hover{ background: #cd7b00; }
+.background_header{
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.description{
+    color: #FFFFFF;
+    height: 100vh;
+}
+.description h1{ font-size: 60px }
+.description h3{ font-size: 40px; font-weight: inherit }
+.description p{ font-size: 18px; margin: 20px 0; line-height: 30px; }
+
+/* skills */
+.skills{transition-duration: 300ms; color: #002A40}
+.skills div{
+    width: 440px;
+    line-height: 30px;
+}
+.Card_skills_List {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    transition-duration: 500ms;
+}
+.Card_skills_List article{
+    width: 200px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+.Card_skills_List article:hover{ box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.3); }
+.Card_skills_List article img{ width: 200px; }
+.Card_skills_List article h4{ margin: 10px; }
+
+/*Node_logo*/
+.backend{
+    display: none;
+    opacity: 0;
+}
+.node_logo{
+    min-width: 400px;
+    min-height: 300px;
+}
+.node_logo img{
+    min-width: 100%;
+}
+
+/*project*/
+.project{
+    background-color: #002A40;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+}
+.project div{ width: 500px }
+.project article{
+    width: 230px;
+    background-color: #fff;
+    color: #000;
+}
+.project article img{ width: 230px; }
+
+/*Logo*/
+
+.logo_and_performance{
+    width: 300px;
+    height: 300px;
+}
+.logo_and_performance img{
+    width: 100%;
+}
+.html_logo h3{color: #F66C3B;}
+.css_logo h3{color: #0A57A6}
+.js_logo h3{color: #EFC725;}
+
+.html_skills_none, .css_skills_none, .js_skills_none{
+    display: none;
+}
+
+/*footer*/
+footer{
+    background-color: #002A40;
+    height: calc(100vh - 80px);
+    line-height: 25px;
+    color: #FFF;
+    transition-duration: 300ms;
+}
+
+.footerBar{
+    color: #002A40;
+    background-color: #EFC725;
+    text-align: center;
+    padding: 6px;
+    font-size: 15px;
+}
+.footer-profile{height: 550px;}
+
+.footer-profile div{
+    width: 400px;
+}
+.footer-profile h1{
+    color: #F9B21C;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.send-email div{
+    width: 40%;
+    transition-duration: 300ms;
+}
+.send-email div button{
+    font-size: 18px;
+    padding: 10px 25px;
+    margin: 20px 0;
+}
+
+.photo-de-manda{
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-profile img{
+    width: 350px;
+    border-radius: 20px;
+}
+.experiences{
+    background-color: rgba(0, 42, 64, 0.05);
+    color: #002A40;
+}
+.experiences_desc_opacity ul{line-height: 30px;}

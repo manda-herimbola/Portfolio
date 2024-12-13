@@ -1,0 +1,214 @@
+@media (max-width: 1124px) {
+    .skills div{ width: 384px;}
+    .Card_skills_List article {
+        width: 150px;
+        zoom: 1.2;
+        border-radius: 13px;
+        margin: 5px;
+    }
+    .node_logo{
+        min-width: 350px;
+        min-height: 250px;
+    }
+    .Card_skills_List article img{ width: 150px; }
+
+    .experiences { height: 100vh; }
+    .experiences_opacity { height: 419px; }
+    .experiences_opacity img {
+        margin-top: -83px;
+        margin-left: -56px;
+    }
+
+    .footer-profile { height: 492px; }
+}
+
+@media screen and (max-width: 1000px) {
+    body{ font-size: 12px;}
+    .description h1 { font-size: 50px; }
+    .description h3 { font-size: 20px; }
+    .description p {font-size: 12px; }
+    .description button { font-size: 13px; }
+
+    .skills_description { width: 360px !important; }
+    .skills div { width: 264px; }
+    .Card_skills_List article{ width: 100px; }
+
+    .experiences_opacity { width: 324px;}
+    .experiences_opacity {height: 278px;}
+
+    .experiences_opacity img {
+        margin-top: -83px;
+        margin-left: -60px;
+        width: 380px;
+    }
+
+    .send-email div {
+        width: 45%;
+        transition-duration: 300ms;
+    }
+
+    .node_logo{
+        min-width: 250px;
+        min-height: 250px;
+    }
+    .Card_skills_List article img{
+        width: 100px;
+    }
+    .Card_skills_List article h4{
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .footer-profile img {
+        width: 225px;
+        border-radius: 20px;
+    }
+    .footer-profile { height: 463px; }
+}
+
+@media screen and (max-width: 740px) {
+    .description h1{ font-size: 30px }
+    .description h3{ font-size: 20px }
+    .description p{ font-size: 12px }
+    header nav h3 {
+        color: #F9B21C;
+        margin-right: 30px;
+    }
+    .skills{
+        height: auto;
+        padding: 30px 22px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .skills div {
+        width: 100% !important;
+        margin: 0
+    }
+    .Card_skills_List article {
+        width: 120px;
+        margin: 5px;
+        border-radius: 10px;
+        zoom: 1.2;
+    }
+    .Card_skills_List article img{ width: 120px; }
+
+    .experiences{
+        flex-direction: column-reverse;
+        padding: 60px 22px;
+    }
+
+    .background_header nav{flex-wrap: wrap;}
+    .background_header nav ul li{
+        padding: 0;
+        margin: 0 13px 0 0;
+    }
+    .experiences_opacity{
+        height: 230px;
+        width: 270px;
+    }
+    .experiences_opacity img{
+        margin-top: -85px;
+        width: 390px;
+    }
+    .context-project{ padding-top: 30px; }
+    .description button{ font-size: 13px }
+
+    .send-email{
+        flex-direction: column-reverse;
+        align-items: start;
+        padding: 30px 22px;
+    }
+    .send-email div button {
+        font-size: 13px;
+        margin: 20px 0 0;
+    }
+    .send-email div { width: 100%; }
+    .skills_description{ min-width: 100px; }
+
+    .node_logo{
+        min-width: 250px;
+        min-height: 200px;
+    }
+
+    .footer-profile {
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+        padding: 30px 22px;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-profile div {
+        width: auto;
+    }
+
+    .footer-profile img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-profile h1 {
+        color: #F9B21C;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .footerBar {
+        color: #002A40;
+        background-color: #EFC725;
+        text-align: center;
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    footer div {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Card_skills_List article{
+        width: 140px;
+        margin: 5px;
+        zoom: 0.87;
+    }
+    .background_header nav ul li {
+        padding: 0;
+        margin: 0 8px 0 0;
+    }
+
+    .experiences{ padding: 60px 22px; }
+    .experiences_opacity {height: 200px;}
+    .node_logo{
+        min-width: 290px;
+        min-height: 230px;
+    }
+
+    .skills_description{
+        min-width: 320px;
+    }
+
+    .Card_skills_List article img{ width: 140px; }
+}
+
+@media screen and (max-width: 320px) {
+    body{font-size: 10px}
+    .skills div {
+        width: 100% !important;
+        line-height: 25px;
+    }
+    .background_header nav ul li {
+        padding: 0;
+        margin: 0 8px 0 0;
+    }
+    .Card_skills_List article {
+        width: 140px;
+        margin: 5px;
+        zoom: 0.79;
+    }
+}
